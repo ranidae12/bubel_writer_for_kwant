@@ -31,8 +31,8 @@ Note:
 # Samples
 
 ## No padding case
-![image](Figure/Kwant/Graphene_ribbon_no_padding.png)
-![image](Figure/Bubel/Graphene_ribbon_no_padding_viewer.png)
+![image](Figure/Kwant/Graphene_ribbon_no_padding.png | width=50%)
+![image](Figure/Bubel/Graphene_ribbon_no_padding_viewer.png | width=50%)
 
 ## Including padding case
 ![image](Figure/Kwant/Graphene_ribbon_include_padding.png)
