@@ -396,5 +396,5 @@ if __name__ == "__main__":
         final_syst = device.finalized()
         U = 0.1
 
-        kwant_syst = Bubel_Writer(final_syst, ("0", "1", "2", "3"))
-        kwant_syst.write(f"bubel_viewer_graphene_ribbon_{'include_padding' if ispadding else 'no_padding'}", final_syst, params=dict(U=U))
+        writer = Bubel_Writer(final_syst, ("0", "1", "2", "3"))
+        writer.write(f"bubel_viewer_graphene_ribbon_{'include_padding' if ispadding else 'no_padding'}", final_syst, params=dict(U=U))
